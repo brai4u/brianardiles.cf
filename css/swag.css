@@ -47,3 +47,20 @@ body {
     position: relative;
     top: 133px;
 }
+
+@media (max-width: 512px) {
+    #hi{
+        top: 1%;
+        position: absolute;
+    }
+
+    #desc{
+        position: absolute;
+        top: 43%;
+    }
+
+    #redes{
+        position: absolute;
+        top: 80%;
+    }
+}
