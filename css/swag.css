@@ -52,11 +52,13 @@ body {
     #hi{
         top: 1%;
         position: absolute;
+        font-size: 90px;
     }
 
     #desc{
         position: absolute;
         top: 43%;
+        font-size: 45px;
     }
 
     #redes{
