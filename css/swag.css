@@ -1,7 +1,12 @@
-
 body {
     background-color: #222125;
     margin: 0px;
+}
+
+#contenido{
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 
 #hi {
@@ -35,10 +40,12 @@ body {
 
 .fa-github:hover{
     color:#d8d2e8;
+    transition: background 0.1s linear;
 }
 
 .fa-twitter:hover{
     color:#4099FF;
+    transition: background 0.1s linear;
 }
 
 #redes {
@@ -46,6 +53,31 @@ body {
     width: 100%;
     position: relative;
     top: 133px;
+}
+
+.contacto{
+    border: solid 2px #604F92;
+    border-radius: 3px;
+    padding: 14px 20px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: background-color ease .2s;
+    text-align: center;
+    top: 247px;
+    position: relative;
+    height: 3%;
+    width: 17%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.contacto:hover{
+    background-color:#604F92;
+    transition: background 0.1s linear;
 }
 
 @media (max-width: 512px) {
@@ -64,5 +96,14 @@ body {
     #redes{
         position: absolute;
         top: 80%;
+    }
+
+    .contacto{
+        background: #493586;
+        top: 90%;
+        /* position: absolute; */
+        width: 84%;
+        border:0;
+        font-weight: 300;
     }
 }
