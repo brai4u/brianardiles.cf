@@ -95,7 +95,7 @@ body {
 
     #redes{
         position: absolute;
-        top: 80%;
+        top: 71%;
     }
 
     .contacto{
@@ -106,6 +106,6 @@ body {
         font-weight: 300;
         padding: 0;
         height: 10%;
-        line-height: 366%;
+        line-height: 330%;
     }
 }
