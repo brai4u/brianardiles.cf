@@ -34,7 +34,7 @@ body {
     position: relative;
     top: 133px;
 }
-.fa-github, .fa-twitter {
+.fa-github, .fa-twitter, .instagram {
     color:white;
 }
 
@@ -45,6 +45,11 @@ body {
 
 .fa-twitter:hover{
     color:#4099FF;
+    transition: background 0.1s linear;
+}
+
+.fa-instagram:hover{
+    color:#9e7144;
     transition: background 0.1s linear;
 }
 
@@ -73,6 +78,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
+}
+
+#redes i {
+    margin: 0 20px;
 }
 
 .contacto:hover{
