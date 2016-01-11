@@ -34,7 +34,7 @@ body {
     position: relative;
     top: 133px;
 }
-.fa-github, .fa-twitter, .fa-instagram {
+.fa-github, .fa-twitter, .fa-instagram, .fa-behance{
     color:white;
 }
 
@@ -50,6 +50,11 @@ body {
 
 .fa-instagram:hover{
     color:#9e7144;
+    transition: background 0.1s linear;
+}
+
+.fa-behance:hover{
+    color:#428bca;
     transition: background 0.1s linear;
 }
 
