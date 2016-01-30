@@ -34,29 +34,25 @@ body {
     position: relative;
     top: 133px;
 }
-.fa-github, .fa-twitter, .fa-instagram, .fa-behance{
-    color:white;
-    transition: background 0.1s linear;
-}
 
 .fa-github:hover{
     color:#d8d2e8;
-    transition: background 0.1s linear;
+    transition: color 0.1s linear;
 }
 
 .fa-twitter:hover{
     color:#4099FF;
-    transition: background 0.1s linear;
+    transition: color 0.1s linear;
 }
 
 .fa-instagram:hover{
     color:#9e7144;
-    transition: background 0.1s linear;
+    transition: color 0.1s linear;
 }
 
 .fa-behance:hover{
     color:#428bca;
-    transition: background 0.1s linear;
+    transition: color 0.1s linear;
 }
 
 #redes {
@@ -88,6 +84,16 @@ body {
 
 #redes i {
     margin: 0 20px;
+}
+
+#redes a{
+	color:white;
+	transition: color 0.1s linear;
+}
+
+#redes:hover a{
+	color:white;
+	transition: color 0.1s linear;
 }
 
 .contacto:hover{
