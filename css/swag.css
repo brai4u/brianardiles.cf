@@ -130,5 +130,6 @@ body {
         height: 10%;
         line-height: 330%;
         color:#fff;
+        border-radius: 0px;
     }
 }
