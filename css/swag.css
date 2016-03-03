@@ -121,7 +121,7 @@ body {
     }
 
     .contacto{
-        background: #493586;
+        background: #2c3e50;
         top: 90%;
         width: 100%;
         border: 0;
@@ -129,5 +129,6 @@ body {
         padding: 0;
         height: 10%;
         line-height: 330%;
+        color:#fff;
     }
 }
