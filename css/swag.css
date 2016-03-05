@@ -15,7 +15,7 @@ body {
     font-size: 190px;
     font-weight: 100;
     text-align: center;
-    top:133px;
+    top: 21%;
     position: relative;
 }
 
@@ -32,7 +32,7 @@ body {
     font-size: 52px;
     margin-bottom: 80px;
     position: relative;
-    top: 133px;
+    top: 20%;
 }
 
 .fa-github:hover{
@@ -59,7 +59,7 @@ body {
     text-align: center;
     width: 100%;
     position: relative;
-    top: 133px;
+    top: 22%;
 }
 
 .contacto{
@@ -73,7 +73,7 @@ body {
     font-weight: 500;
     transition: background-color ease .2s;
     text-align: center;
-    top: 247px;
+    top: 28%;
     position: relative;
     height: 3%;
     width: 17%;
