@@ -46,17 +46,12 @@ body {
 }
 
 .fa-instagram:hover{
-    color:#000000;
+    color:#9e7144;
     transition: color 0.1s linear;
 }
 
 .fa-behance:hover{
     color:#428bca;
-    transition: color 0.1s linear;
-}
-
-.fa-snapchat-ghost:hover{
-    color:#fffc00;
     transition: color 0.1s linear;
 }
 
@@ -136,9 +131,5 @@ body {
         line-height: 330%;
         color:#fff;
         border-radius: 0px;
-    }
-
-    #redes i {
-        margin: 0 6px;
     }
 }
