@@ -104,9 +104,9 @@ body {
 
 @media (max-width: 512px) {
     #hi{
-        top: 1%;
         position: absolute;
         font-size: 90px;
+        width: 100%;
     }
 
     #desc{
@@ -131,5 +131,25 @@ body {
         line-height: 330%;
         color:#fff;
         border-radius: 0px;
+    }
+}
+
+@media (max-width: 334px) {
+    #hi{
+        position: absolute;
+        font-size: 90px;
+        width: 100%;
+        top:2%;
+    }
+
+    #desc{
+        position: absolute;
+        top: 35%;
+        font-size: 45px;
+    }
+
+    #redes{
+        position: absolute;
+        top: 70%;
     }
 }
