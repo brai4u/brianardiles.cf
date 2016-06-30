@@ -139,17 +139,17 @@ body {
         position: absolute;
         font-size: 90px;
         width: 100%;
-        top:2%;
+        top:1%;
     }
 
     #desc{
         position: absolute;
-        top: 35%;
+        top: 42%;
         font-size: 45px;
     }
 
     #redes{
         position: absolute;
-        top: 70%;
+        top: 75%;
     }
 }
