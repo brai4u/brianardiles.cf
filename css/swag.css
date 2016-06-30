@@ -134,7 +134,7 @@ body {
     }
 }
 
-@media (max-width: 359px) {
+@media (max-width: 360px) {
     #hi{
         position: absolute;
         font-size: 90px;
