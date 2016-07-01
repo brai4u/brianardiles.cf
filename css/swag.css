@@ -139,12 +139,12 @@ body {
         position: absolute;
         font-size: 90px;
         width: 100%;
-        top:1%;
+        top:4%;
     }
 
     #desc{
         position: absolute;
-        top: 42%;
+        top: 43%;
         font-size: 45px;
     }
 
