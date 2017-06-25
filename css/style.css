@@ -46,7 +46,8 @@ ul.menu > li{
 }
 
 .app-medido-screen{
-	width: 53%;
+    width: 38%;
+    margin-bottom: 33px;
 }
 
 .description{
