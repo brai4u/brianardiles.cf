@@ -1,0 +1,126 @@
+body {
+    font-family: 'Questrial', sans-serif;
+}
+
+.dark {
+    color: #f0f0f0;
+    background-color: #000000;
+}
+
+.light {
+    color: #222;
+    background-color: #ffffff;
+}
+
+.switch-mode {
+    margin: 15px;
+    z-index: 999;
+    position: sticky;
+}
+
+.active-mode {
+    opacity: 60%;
+}
+
+#light-mode, #dark-mode {
+    cursor: pointer;
+}
+
+.presentation {
+    text-align: center;
+    margin-top: 20%;
+}
+
+h1 {
+    margin-bottom: -10px;
+    font-weight: bold;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover{
+    color:inherit;
+    opacity: 60%;
+}
+
+.info {
+    padding-top: 20%;
+    display: block;
+}
+
+.list-title {
+    font-size: 1.9rem;
+}
+
+li{
+    list-style: none;
+}
+
+.aboutme {
+    padding-top: 3%;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+/* Larger than mobile */
+@media (min-width: 100px) and (max-width: 550px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    .info {
+        display: grid!important;
+        padding-top: 10px;
+    }
+
+    .info div:nth-of-type(1) {
+        order: 3!important;
+    }
+
+    .presentation {
+        text-align: center;
+        margin-top: 0%;
+    }
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) and (max-width: 750px) {
+    h1 {
+        font-size: 9rem;
+    }
+
+    .presentation {
+        text-align: center;
+        margin-top: 5%;
+    }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) and (max-width: 1000px) {
+    h1 {
+        font-size: 10rem;
+    }
+
+    .presentation {
+        text-align: center;
+        margin-top: 5%;
+    }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+    h1 {
+        font-size: 10rem;
+    }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 13rem;
+    }
+}
