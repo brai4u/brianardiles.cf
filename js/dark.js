@@ -20,7 +20,8 @@ window.onload = () => {
 
     getThemeAndSet()
     window.matchMedia('(prefers-color-scheme: dark)')
-        .addEventListener('change', () => {getThemeAndSet()})}
+        .addEventListener('change', () => {getThemeAndSet()})
+}
 
 
 const setMode = (mode, lightModeButton, darkModeButton) => {
