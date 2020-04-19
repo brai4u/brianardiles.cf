@@ -10,12 +10,17 @@ window.onload = () => {
         setMode('dark', lightModeButton, darkModeButton)
     });
 
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        setMode('dark', lightModeButton, darkModeButton)
-    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches){
-        setMode('light', lightModeButton, darkModeButton)
+    const getThemeAndSet = () => {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            setMode('dark', lightModeButton, darkModeButton)
+        } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches){
+            setMode('light', lightModeButton, darkModeButton)
+        }
     }
-}
+
+    getThemeAndSet()
+    window.matchMedia('(prefers-color-scheme: dark)')
+        .addEventListener('change', () => {getThemeAndSet()})}
 
 
 const setMode = (mode, lightModeButton, darkModeButton) => {
