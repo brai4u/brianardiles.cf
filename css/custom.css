@@ -1,8 +1,32 @@
 body {
     font-family: 'Questrial', sans-serif;
 }
+
+.dark {
+    color: #f0f0f0;
+    background-color: #000000;
+}
+
+.light {
+    color: #222;
+    background-color: #ffffff;
+}
+
+.switch-mode {
+    margin: 15px;
+}
+
+.active-mode {
+    opacity: 60%;
+}
+
+#light-mode, #dark-mode {
+    cursor: pointer;
+}
+
 .presentation {
     text-align: center;
+    margin-top: 20%;
 }
 
 h1 {
