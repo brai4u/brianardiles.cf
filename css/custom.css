@@ -38,9 +38,9 @@ body {
 }
 
 .nav-bar {
-    float: left;
-    margin-left: 8%;
-    margin-top: 1%;
+    margin: 15px;
+    z-index: 999;
+    position: sticky;
 }
 
 a {
