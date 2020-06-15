@@ -122,6 +122,11 @@ li{
         text-align: center;
         margin-top: 25px;
     }
+
+    .switch-mode{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
 
 /* Larger than phablet */
